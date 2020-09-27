@@ -2,6 +2,7 @@ body{
     font-size: 20px;
     margin-left: 3%;
     margin-right: 5%;
+    background-color: blanchedalmond;
 }
 #p1 h1{
     font-family: cursive;
@@ -9,4 +10,7 @@ body{
 nav a{
     padding-left: 5%;
     float: right;
+}
+span{
+    font-style: italic;
 }
