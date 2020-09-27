@@ -25,19 +25,18 @@ span{
 #about li{
     padding-right: 4px;
 }
-/* .projects a{
-    color: blue;
-} */
-/* .hobbies li{
-    float: bottom;
-} */
-.hobbies img{
-    float: bottom;
-}
+
 .column{
     float: left;
-    padding: 10px;
+    padding: 30px;
 }
 .row::after{
     display: table;
+}
+
+#exten{
+    float: left;
+}
+footer{
+    background-color: cornsilk;
 }
