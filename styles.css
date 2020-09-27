@@ -14,6 +14,15 @@ nav a{
 span{
     font-style: italic;
 }
-img{
-    float: right;
+#p1 img{
+    float: right:
 }
+.about img{
+    float: left;
+}
+.about li{
+    padding-right: 8px;
+}
+/* .projects a{
+    color: blue;
+} */
