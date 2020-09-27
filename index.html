@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta chartset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale="1.0">
 <title>My Portfolio</title>
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="About.html">
@@ -12,10 +12,14 @@
  <div id="p1">
     <h1><span style="color:blue">Sheilla Njoroge</span></h1>
     <nav>
-        <a href="about">About Me</a>
-        <a href="projects">Projects</a>
-        <a href="contact">Contact Me</a>
+        <a href="#contact">My Contacts</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#home">Home</a>
     </nav>
+ </div> 
+
+ <div id="home">
     <h1>Hi</h1>
     <p>
         I am a <strong>Clinical Psychologist</strong> passionate about <strong>Software Developing and Programming </strong>having an experience with <span>HTML, CSS </span>and a bit of <span>Javascript</span>. I am so open to reading and researching more on cool libraries and frameworks.
@@ -23,7 +27,7 @@
     <img src="https://p0.pikist.com/photos/292/588/giraffe-laying-down-nature-uganda-african-safari-wildlife-green.jpg" width="600px" height="500px">
  </div>
 
- <div class="projects">
+ <div id="projects">
      <h1> List of My Projects on Github</h1>
      <ol>
         <li>My first webpage</li>
@@ -77,34 +81,42 @@
      </ol>
 
  </div>
- <div class="about">
+ <div id="about">
      <h1> About Me</h1>
      <h2>Education</h2>
      <ul>
-         <li>Moringa School-2020</li>
-         <p>Certificate in Programming</p>
-         <img src="https://coursereport-s3-production.global.ssl.fastly.net/rich/rich_files/rich_files/566/s300/10710615-512708608864666-6379526937469666187-n.png" width="400px" height="400px">
-         
-         <li>John Hopkins University, USA-2020</li>
-         <p>Certificate in Psychological First Aid(PFA)</p>
-         <img src="https://brand.jhu.edu/assets/uploads/sites/5/2014/06/university.logo_.small_.horizontal.blue_.jpg" width="400px" height="400px">
-         
+         <div class="row">
+         <div class="column"> 
+           <li>Moringa School-2020</li>
+           <p>Certificate in Programming</p>
+           <img src="https://coursereport-s3-production.global.ssl.fastly.net/rich/rich_files/rich_files/566/s300/10710615-512708608864666-6379526937469666187-n.png" width="400px" height="400px">
+         </div>
+         </div>
 
-         <li>University of Nairobi 2015-2019</li>
-         <p>Master of Science in Clinical Psychology</p>
-         <img src="https://campoe.co/ke/wp-content/uploads/sites/8/2020/08/University-of-nairobi-UoN-600x416.jpg"width="400px" height="400px" >
-         
+         <div class="column">
+             <li>John Hopkins University, USA-2020</li>
+             <p>Certificate in Psychological First Aid(PFA)</p>
+             <img src="https://brand.jhu.edu/assets/uploads/sites/5/2014/06/university.logo_.small_.horizontal.blue_.jpg" width="400px" height="400px">
+         </div>
 
-         <li>Egerton University 2010-2014</li>
-         <p>Bachelor of Psychology</p>
-         <img src="https://biogas.co.ke/wp-content/uploads/2018/02/EGERTON-UNI.jpg" width="400px" height="400px">
-         
+         <div class="row">
+         <div class="column">
+             <li>University of Nairobi 2015-2019</li>
+             <p>Master of Science in Clinical Psychology</p>
+             <img src="https://campoe.co/ke/wp-content/uploads/sites/8/2020/08/University-of-nairobi-UoN-600x416.jpg"width="400px" height="400px" >
+         </div>
+         </div>
+
+         <div class="column">
+             <li>Egerton University 2010-2014</li>
+             <p>Bachelor of Psychology</p>
+             <img src="https://biogas.co.ke/wp-content/uploads/2018/02/EGERTON-UNI.jpg" width="400px" height="400px">
+         </div>
 
      </ul>
  </div>
 
-
-     <div id="hobbies">
+<div class="hobbies">
      <h2>Hobbies</h2>
      <ul>
          <li>Swimming</li>
@@ -114,6 +126,7 @@
          <li>Travelling</li>
          <img src="data:image/png;base64,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" width="100px" height="100px">
      </ul>
+</div>
 
  
 
