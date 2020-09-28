@@ -14,5 +14,7 @@ None at the moment, will post if any.
 HTML and CSS..will add JS for more interaction later
 ## Support and contact details
 For any contribution contact sheillan.njoroge@gmail.com
+## Demo
+https://sheillanjoroge.github.io/Portfolio-Page/
 ### License
 MIT
