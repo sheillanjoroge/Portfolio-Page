@@ -34,8 +34,8 @@ span{
     display: table;
 }
 
-#exten{
-    float: left;
+#exten.hobbies{
+    display: table-row;
 }
 /* footer{
     background-color: cornsilk; */
